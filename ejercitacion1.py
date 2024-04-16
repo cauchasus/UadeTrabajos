@@ -2,7 +2,7 @@
 val_a, val_b, cont = 0, 1, 0
 while cont <= 40:
     print(val_a, end=", ")
-    val_a, val_b = val_b, val_a + val_b
+    val_b, val_a = val_a + val_b, val_b
     cont = cont + 1
 
 val_a, val_b, cont = 0, 1, 0
